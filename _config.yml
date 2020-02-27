@@ -1,93 +1,84 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: Josh Wilburn
+subtitle: Developer, trader, and all-around great guy
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  Josh Wilburn
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://youngpascal.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact Me
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+      url: /
 
 # Edit these details
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author_logo: personal.jpg
+author: Josh Wilburn
+author_bio: 
+author_email: "josh@joshwilburn.me"
+author_location: Houston, TX
+author_website_url: "http://joshwilburn.me"
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: United Engineers, Inc (Current)
+              company_logo: uei.jpg
+              company_url: https://www.unitede.com/
+              designation: OSP Engineer
+              description: Provide constructional and anayltical design of fiber and copper plant infrastrcture for AT&T.
+              visibility: true
+            - company_name: Byers Engineering
+              company_logo: byers.jpg
+              company_url: http://www.byers.com/
+              designation: OSP Engineer
+              description: Provided constructional and anayltical design of fiber and copper plant infrastrcture for AT&T.
+              visibility: true
+            - company_name: DTI (Drilling Technological Innovations)
+              company_logo: dti-logo-2x.png
+              company_url: https://www.dtillc.com/
               designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+              description: Developed several ETL solutions for migrating data between ERPs and OEM products such as AutoCad. Developed SharePoint solutions to move paper processes to online workflows.
+              visibility: true              
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: uh-logo.png
+                college_name: University of Houston
+                college_url: https://uh.edu
+                college_degree: Computer Science
+                description: Bachelor of Science
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: peercoin-leaf.png
+                project_title: Peercoin
+                project_description: Pioneer of the Proof of Stake cryptocurrency consensus protocol.
+                project_url: https://github.com/peercoin/
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: PeerAssets_icon.svg
+                project_title: PeerAssets
+                project_description: A simple blockchain based protocol which enables peers to issue and transact with tokens.
+                project_url: https://github.com/PeerAssets
                 visibility: true
-
+              - project_thumbnail: PeerAssets_icon.svg
+                project_title: PeerAssets API
+                project_description: A dockerized minimalist API for PeerAssets using Flask in Python.
+                project_url: https://github.com/PeerAssets/papi
+                visibility: true
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  youngpascal
+linkedin_username: josh-wilburn
+
 
 #for comments using disqus
-disqus_shortname: sujay-kundu
+#disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: 
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url:
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: 
 
 # syntax highlighter
 markdown: kramdown
@@ -152,7 +143,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-algolia
+#  - jekyll-algolia
   - jekyll-menus
 
 
@@ -175,5 +166,17 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - _products
+  - _includes/blog_newsletter.html
+  - _includes/coding_activity.html
+  - _includes/search.html
+  - blog
+  - _layouts/blog.html
+  - _layouts/post.html
+  - _layouts/product.html
+  - _layouts/search.html
+  - _layouts/contact.html
+  - gallery
+  - _posts
 
-destination: ./build
+destination: ./build 
