@@ -58,11 +58,6 @@ author_project_details:
                 project_description: A simple blockchain based protocol which enables peers to issue and transact with tokens.
                 project_url: https://github.com/PeerAssets
                 visibility: true
-              - project_thumbnail: PeerAssets_icon.svg
-                project_title: PeerAssets API
-                project_description: A dockerized minimalist API for PeerAssets using Flask in Python.
-                project_url: https://github.com/PeerAssets/papi
-                visibility: true
 # social links
 github_username:  youngpascal
 linkedin_username: josh-wilburn
