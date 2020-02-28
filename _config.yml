@@ -27,13 +27,13 @@ author_work_experiences:
               description: The Peercoin Foundation has been established with the simple mission of promoting and supporting the continued education, development, and overall progression of the Peercoin project.
               visibility: true
             - company_name: United Engineers, Inc (Current)
-              company_logo: uei.jpg
+              company_logo: uei.png
               company_url: https://www.unitede.com/
               designation: OSP Engineer
               description: Provide constructional and analytical design of fiber and copper plant infrastrcture for AT&T.
               visibility: true
             - company_name: Byers Engineering
-              company_logo: byers.jpg
+              company_logo: byers.png
               company_url: http://www.byers.com/
               designation: OSP Engineer
               description: Provided constructional and analytical design of fiber and copper plant infrastrcture for AT&T.
