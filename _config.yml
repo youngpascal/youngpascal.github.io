@@ -20,6 +20,12 @@ author_location: Houston, TX
 author_website_url: "http://joshwilburn.me"
 
 author_work_experiences:
+            - company_name: Stichting Peercoin Foundation (Current, Nonprofit)
+              company_logo: peercoin_foundation_logo.png
+              company_url: https://www.peercoin.net/foundation
+              designation: Co-Founder
+              description: The Peercoin Foundation has been established with the simple mission of promoting and supporting the continued education, development, and overall progression of the Peercoin project.
+              visibility: true
             - company_name: United Engineers, Inc (Current)
               company_logo: uei.jpg
               company_url: https://www.unitede.com/
